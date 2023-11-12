@@ -1,0 +1,20 @@
+C:\Users\User\source\repos\Formularz ufoludka\Formularz ufoludka\bin\Debug\net6.0-windows\Formularz ufoludka.exe
+C:\Users\User\source\repos\Formularz ufoludka\Formularz ufoludka\bin\Debug\net6.0-windows\Formularz ufoludka.deps.json
+C:\Users\User\source\repos\Formularz ufoludka\Formularz ufoludka\bin\Debug\net6.0-windows\Formularz ufoludka.runtimeconfig.json
+C:\Users\User\source\repos\Formularz ufoludka\Formularz ufoludka\bin\Debug\net6.0-windows\Formularz ufoludka.dll
+C:\Users\User\source\repos\Formularz ufoludka\Formularz ufoludka\bin\Debug\net6.0-windows\Formularz ufoludka.pdb
+C:\Users\User\source\repos\Formularz ufoludka\Formularz ufoludka\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\User\source\repos\Formularz ufoludka\Formularz ufoludka\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\User\source\repos\Formularz ufoludka\Formularz ufoludka\obj\Debug\net6.0-windows\Formularz ufoludka_MarkupCompile.cache
+C:\Users\User\source\repos\Formularz ufoludka\Formularz ufoludka\obj\Debug\net6.0-windows\Formularz ufoludka_MarkupCompile.lref
+C:\Users\User\source\repos\Formularz ufoludka\Formularz ufoludka\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\User\source\repos\Formularz ufoludka\Formularz ufoludka\obj\Debug\net6.0-windows\Formularz ufoludka.g.resources
+C:\Users\User\source\repos\Formularz ufoludka\Formularz ufoludka\obj\Debug\net6.0-windows\Formularz ufoludka.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\Formularz ufoludka\Formularz ufoludka\obj\Debug\net6.0-windows\Formularz ufoludka.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Formularz ufoludka\Formularz ufoludka\obj\Debug\net6.0-windows\Formularz ufoludka.AssemblyInfo.cs
+C:\Users\User\source\repos\Formularz ufoludka\Formularz ufoludka\obj\Debug\net6.0-windows\Formularz ufoludka.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Formularz ufoludka\Formularz ufoludka\obj\Debug\net6.0-windows\Formularz ufoludka.dll
+C:\Users\User\source\repos\Formularz ufoludka\Formularz ufoludka\obj\Debug\net6.0-windows\refint\Formularz ufoludka.dll
+C:\Users\User\source\repos\Formularz ufoludka\Formularz ufoludka\obj\Debug\net6.0-windows\Formularz ufoludka.pdb
+C:\Users\User\source\repos\Formularz ufoludka\Formularz ufoludka\obj\Debug\net6.0-windows\Formularz ufoludka.genruntimeconfig.cache
+C:\Users\User\source\repos\Formularz ufoludka\Formularz ufoludka\obj\Debug\net6.0-windows\ref\Formularz ufoludka.dll

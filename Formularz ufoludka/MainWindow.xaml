@@ -1,0 +1,71 @@
+﻿<Window x:Class="Formularz_ufoludka.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Formularz_ufoludka"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="800">
+    <Grid>
+        <StackPanel Name="reg" Width="400px" Margin="0 50 0 0">
+            <Label Content="REGESTRACJA NA TWOJE NOWE KONTO W TEJ APLIKACJI" Margin="0 0 0 40" HorizontalAlignment="Center" FontSize="14" FontWeight="Bold"/>
+            <StackPanel Margin="10">
+                <TextBlock Text="NAPISZ NICKNAME"/>
+                <TextBox Name="nick" Margin="0 0 0 15"/>
+                <TextBlock Text="NAPISZ HASŁO"/>
+                <PasswordBox Name="hasl1" Margin="0 0 0 15"/>
+                <TextBlock Text="POTWIERDŻ HASŁO"/>
+                <PasswordBox Name="hasl2" Margin="0 0 0 15"/>
+                <Button Click="next" Content="DALEJ"/>
+                <TextBlock Name="haslalert"/>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Name="character" Width="600px" Visibility="hidden" Margin="10">
+            <Grid Margin="0 0 0 10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Calendar Name="calen"/>
+                <StackPanel Grid.Column="1" Margin="10">
+                    <TextBlock Margin="0 10 0 0" Text="PŁEĆ:" TextAlignment="Center"/>
+                    <ComboBox Name="plec"  Margin="0 0 0 15">
+                        <ComboBoxItem Content="MĘŻCZYZNA"/>
+                        <ComboBoxItem Content="KOBIETA"/>
+                    </ComboBox>
+                    <TextBlock Text="WZRÓST:" TextAlignment="Center"/>
+                    <Slider Margin="0 0 0 15" Name="wzrost" Minimum="50" Maximum="400"/>
+                    <TextBlock Text="{Binding ElementName=wzrost, Path=Value}" TextAlignment="Center"/>
+                </StackPanel>
+            </Grid>
+            <StackPanel Orientation="Horizontal" Margin="0 0 0 10">
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Stretch" Width="300px">
+                    <Label Content="WYPOSAŻENIE:" HorizontalAlignment="Center"/>
+                    <CheckBox Name="szer" Content="SZERMIERZ" Margin="0 0 0 10"/>
+                    <CheckBox Name="piki" Content="PIKINIERZ" />
+                    <CheckBox Name="rang" Content="RANGER" Margin="0 10"/>
+                    <CheckBox Name="strz" Content="STRZELEC" />
+                    <CheckBox Name="golm" Content="GOLEM" Margin="0 10"/>
+                    <CheckBox Name="uzdr" Content="UZDROWICIEL" />
+                </StackPanel>
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Stretch" Width="300px">
+                    <Label Content="ROLA:" HorizontalAlignment="Center"/>
+                    <RadioButton Name="czlk" Content="CZŁOWIEK" Margin="0 0 0 10"/>
+                    <RadioButton Name="elf" Content="ELF" />
+                    <RadioButton Name="kras" Content="KRASNOLUD" Margin="0 10"/>
+                    <RadioButton Name="ork" Content="ORK" />
+                    <RadioButton Name="choh" Content="CHOCHLIK" Margin="0 10"/>
+                    <RadioButton Name="trol" Content="TROLL" />
+                </StackPanel>
+            </StackPanel>
+            <Expander Header="UWAŻAJ" >
+                <TextBlock Text="MUSISZ WYBRAĆ WSZYSTKO, SZCZEGÓLNIE WYPOSAŻENIE I ROLĘ; INACZEJ NIE UDA SIĘ CI ZAPISAĆ DO PLIKU"/>
+            </Expander>
+            <Button Click="save" Content="ZAPISZ WSZYSTKO" Margin="10"/>
+            <Button Click="back" Content="WRÓĆ" Margin="10 0 10 0"/>
+        </StackPanel>
+    </Grid>
+</Window>
